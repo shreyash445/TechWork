@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TechWork | Graphic Designer & Tech braniac</title>
+    <meta name="description" content="Portfolio website for a Graphic Designer & Event Coordinator – clean, modern, responsive one‑page design." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="nav">
+        <div class="container nav-inner">
+            <a class="brand" href="#home" aria-label="Home">
+                <img src="TechworkPNG-removebg-preview.png" alt="TechWork Freelance Logo" style="height: 36px;">
+            </a>
+            <button class="menu-btn" aria-label="Open Menu" onclick="document.querySelector('.nav-links').style.display = (document.querySelector('.nav-links').style.display==='flex'?'none':'flex')">
+                ☰
+            </button>
+            <div class="nav-links">
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#skills">Skills</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact" class="cta">Let’s Collaborate</a>
+            </div>
+        </div>
+    </nav>
+    <header id="home" class="hero">
+        <div class="container hero-grid">
+            <div>
+                <div class="eyebrow"><span>📍 Mumbai • Jai Hind College</span> <span>•</span> <b>DCC Club</b></div>
+                <h1 class="title">Hi, I’m <strong>Shreyash</strong> — Graphic Designer & Tech braniac</h1>
+                <p class="subtitle">with a strong eye for creativity and detail, helping brands bring ideas to life through impactful visuals, With a growing expertise in data analytics and IT-related data work, I bridge the gap between creativity and technology to deliver smart, data-driven solutions.</p>
+                <div class="hero-actions">
+                    <a class="btn primary" href="#work">View My Work</a>
+                    <a class="btn ghost" href="#contact">Contact Me</a>
+                </div>
+                <div class="metrics">
+                    <div class="metric"><b>35+</b><small>Design Projects</small></div>
+                    <div class="metric"><b>20+</b><small>Events Delivered</small></div>
+                    <div class="metric"><b>3+</b><small>Years Experience</small></div>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="mock">
+                    <img class="default-img" src="herocardDefault.png" alt="My Work Preview">
+                    <img class="hover-img" src="herocardAnimate.png" alt="My Animated Work Preview">
+                </div>
+                <div class="pill-list">
+                    <span class="chip">Branding</span>
+                    <span class="chip">Social Media</span>
+                    <span class="chip">Data analytics</span>
+                    <span class="chip">Motion</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="work">
+        <div class="container">
+            <div class="section-head">
+                <h2>Selected Work</h2>
+                <span class="tag">★ Case Studies</span>
+            </div>
+
+            <div class="grid">
+                <article class="card large">
+                    <div class="thumb">
+                        <img src="Branding.png" alt="My Work Preview">
+                        <span class="badge">Graphic Design</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Logos & Branding | Posters & Flyers</h3>
+                        <p>I specialize in creating visually appealing designs such as logos, posters, resumes, and social media creatives. My focus is on building modern, minimal, and impactful visuals.</p>
+                        <div class="actions">
+                            <span class="chip">Graphics</span>
+                            <span class="chip">Logo designs</span>
+                            <span class="chip">Poster & flyer designs</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="thumb">
+                        <span class="badge">Social</span>
+                        <img src="advertising.jpg" alt="My Work Preview">
+                    </div>
+                    <div class="card-body">
+                        <h3>Social Media Management</h3>
+                        <p>I help brands and individuals manage their social presence by designing content calendars, creating engaging posts, and analyzing performance metrics. My goal is to grow reach and engagement through consistent, creative, and data-driven strategies.</p>
+                    </div>
+                </article>
+                <article class="card data-analytics-card">
+                    <div class="thumb">
+                        <img class="slide active" src="Web Dashboard.jpg" alt="Data Analytics Slide 1">
+                        <img class="slide" src="DashBoard1.png" alt="Data Analytics Slide 2">
+                        <img class="slide" src="Dashboard3.png" alt="Data Analytics Slide 3">
+                        <span class="badge">Data Analytics</span>
+                        <button class="prev-slide" aria-label="Previous Slide">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+                        </button>
+                        <button class="next-slide" aria-label="Next Slide">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+                        </button>
+                        <div class="dot-navigation"></div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Data Analytics / IT Work</h3>
+                        <p>I work with tools like Excel, Google Sheets, and SQL to organize, analyze, and visualize data.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <span class="badge">Web | IT</span>
+                        <img src="Web site Designs.png" alt="My Work Preview">
+                    </div>
+                    <div class="card-body">
+                        <h3>Web & IT Projects</h3>
+                        <p>I build clean and minimal web projects, including personal portfolios and landing pages.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container about-grid">
+            <div>
+                <div class="section-head">
+                    <h2>About Me</h2>
+                    <span class="tag">Designer • Coordinator</span>
+                </div>
+                <p>I’m Shreyash Kumbhar, a creative intermidate, passionate about blending design and technology. With experience in graphic design and data analytics, Currently pursuing B.Sc. IT, I aim to grow as a versatile digital creator who bridges creativity with technical skills.</p>
+                <div class="pill-list">
+                    <span class="chip">Figma</span>
+                    <span class="chip">Adobe Photoshop</span>
+                    <span class="chip">Illustrator</span>
+                    <span class="chip">Premiere Pro</span>
+                    <span class="chip">After Effects</span>
+                </div>
+            </div>
+            <div>
+                <div class="grid">
+                    <div class="service card" style="grid-column:span 6">
+                        <div class="card-body">
+                            <h3>Why me?</h3>
+                            <p>Creative + data-driven approach to deliver designs and solutions that make an impact.</p>
+                        </div>
+                    </div>
+                    <div class="service card" style="grid-column:span 6">
+                        <div class="card-body">
+                            <h3>Values</h3>
+                            <p>Quality, consistency, and integrity in every project I take on.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-head">
+                <h2>Services</h2>
+                <span class="tag">Available for freelance</span>
+            </div>
+            <div class="grid">
+                <div class="service" style="grid-column:span 5">
+                    <h3>Graphic Design</h3>
+                    <p>Logos, posters, resumes, and brand visuals that are creative, modern, and tailored to your identity.</p>
+                </div>
+                <div class="service" style="grid-column:span 6">
+                    <h3>Social Media Management</h3>
+                    <p>Content creation, posting strategies, and analytics to grow and engage your audience effectively.</p>
+                </div>
+                <div class="service" style="grid-column:span 4">
+                    <h3>Data Analytics & IT Solutions</h3>
+                    <p>Dashboards, data cleaning, and automation tools to turn raw data into actionable insights.</p>
+                </div>
+                <div class="service" style="grid-column:span 7">
+                    <h3>Web Development</h3>
+                    <p>Minimal, responsive websites and landing pages designed to showcase your brand or portfolio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <div class="section-head">
+                <h2>Skills</h2>
+                <span class="tag">Tools & Craft</span>
+            </div>
+            <div class="grid">
+                <div class="card" style="grid-column:span 6">
+                    <div class="card-body">
+                        <h3>Design Tools</h3>
+                        <div class="skill">
+                            <div style="display:flex;justify-content:space-between"><b>Photoshop</b><span>85%</span></div>
+                            <div class="meter" aria-label="Photoshop proficiency"><span style="width:85%"></span></div>
+                        </div>
+                        <div class="skill">
+                            <div style="display:flex;justify-content:space-between"><b>Illustrator</b><span>80%</span></div>
+                            <div class="meter"><span style="width:80%"></span></div>
+                        </div>
+                        <div class="skill">
+                            <div style="display:flex;justify-content:space-between"><b>Figma</b><span>75%</span></div>
+                            <div class="meter"><span style="width:75%"></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="grid-column:span 6">
+                    <div class="card-body">
+                        <h3>Event Ops</h3>
+                        <div class="skill">
+                            <div style="display:flex;justify-content:space-between"><b>Coordination</b><span>90%</span></div>
+                            <div class="meter"><span style="width:90%"></span></div>
+                        </div>
+                        <div class="skill">
+                            <div style="display:flex;justify-content:space-between"><b>Communication</b><span>85%</span></div>
+                            <div class="meter"><span style="width:85%"></span></div>
+                        </div>
+                        <div class="skill">
+                            <div style="display:flex;justify-content:space-between"><b>Logistics</b><span>80%</span></div>
+                            <div class="meter"><span style="width:80%"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-head">
+                <h2>Testimonials</h2>
+                <span class="tag">What people say</span>
+            </div>
+            <div class="grid">
+                <div class="card" style="grid-column:span 6">
+                    <div class="card-body">
+                        <blockquote>“Working with Shreyash was a great experience. He understood our vision and delivered designs that were amazing. Our social media engagement grew noticeably after his input.”</blockquote>
+                        <p><b>Social Media Manager</b> • TECH Club</p>
+                    </div>
+                </div>
+                <div class="card" style="grid-column:span 5">
+                    <div class="card-body">
+                        <blockquote>“On‑time delivery even with last‑minute changes — great communication and design sense.”</blockquote>
+                        <p><b>Business Analyst</b> • BAKINS.CO</p>
+                    </div>
+                </div>
+                <div class="card" style="grid-column:span 11">
+                    <div class="card-body">
+                        <blockquote>“Shreyash is highly reliable and detail-oriented. From social media creatives to IT support tasks, he handled everything smoothly and delivered on time. His versatility makes him a valuable asset to any project.”</blockquote>
+                        <p><b>Startup Founder</b> • DCC Club</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-head">
+                <h2>Let’s Build Something</h2>
+                <span class="tag">Get in touch</span>
+            </div>
+            <div class="grid">
+                <div class="card" style="grid-column:span 6">
+                    <div class="card-body">
+                        <form action="https://script.google.com/macros/s/AKfycbwl3Bas5eNRJ7O0jt8lVCQTZdBDkKfi-sx5OKcARBnWp2v7B5DBL9Aho8egMEyozstwlw/exec" method="post" onsubmit="this.submit(); return false;">
+                        <div class="form-row">
+                            <div>
+                                <label for="name">Name</label>
+                                <input id="name" name="name" placeholder="Your name" required>
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input id="email" name="email" type="email" placeholder="you@example.com" required>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="msg">Message</label>
+                            <textarea id="msg" name="message" placeholder="Tell me about your project…" required></textarea>
+                        </div>
+                        <button class="btn primary" type="submit">Send Message</button>
+                        <p class="note">No spam. I usually reply within 24 hours.</p>
+                    </form>
+                    </div>
+                </div>
+                <div class="card" style="grid-column:span 6">
+                    <div class="card-body">
+                        <h3>Contact Details</h3>
+                        <p><b>Email:</b> techwithssk@gmail.com</p>
+                        <p><b>LinkedIn:</b> linkedin.com/in/shreyash-kumbhar-59aa25366/</p>
+                        <p><b>Instagram:</b> @techwithssk</p>
+                        <div class="pill-list" style="margin-top:14px">
+                            <span class="chip" style="background:var(--blue-900);color:#fff">Available for freelance</span>
+                            <span class="chip" style="background:var(--orange);color:#fff">Mumbai</span>
+                        </div>
+                        <img src="Techwork2PNG-removebg-preview.png" alt="TechWork Logo" style="width: 300px; margin-top: 20px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container foot">
+            <div class="brand"><span class="brand-mark"><svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 2l8 5-8 5-8-5 8-5zm0 7l8 5-8 5-8-5 8-5z"/></svg></span> <span>TechWork | Graphic Designer & Event Coordinator</span></div>
+            <div class="socials">
+                <a aria-label="Github" href="#https://github.com/shreyash445" title="github">B</a>
+                <a aria-label="Gmail" href="#techwithssk@gmail.com" title="gmail">D</a>
+                <a aria-label="Instagram" href="#https://www.instagram.com/techwithssk/" title="instagram">IG</a>
+                <a aria-label="LinkedIn" href="#https://www.linkedin.com/in/shreyash-kumbhar-59aa25366/" title="linkedIn">in</a>
+            </div>
+            <small>© <span id="year"></span> TechWork. All rights reserved.</small>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
